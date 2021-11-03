@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google_page</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">الاسم الاخير</string>
+    <string name="email">"اسم المستخدم "</string>
+    <string name="Pass">كلمة المرور</string>
+    <string name="confirm"> تأكيد كلمة المرور</string>
+    <string name="next">التالي</string>
+    <string name="forget">نسيت كلمة المرور؟</string>
+</resources>
