@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Google_page/app/src/main/res/layout/activity_2.xml" value="0.30052083333333335" />
         <entry key="..\:/Google_page/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
         <entry key="..\:/Google_page/app/src/main/res/layout/activity_seconed.xml" value="0.1" />
+        <entry key="..\:/Google_page/app/src/main/res/layout/content_2.xml" value="0.30052083333333335" />
+        <entry key="..\:/Google_page/app/src/main/res/layout/fragment_first.xml" value="0.30052083333333335" />
       </map>
     </option>
   </component>

@@ -2,11 +2,11 @@ package com.example.google_page
 
 import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings.Global.getString
 
 import androidx.appcompat.app.AppCompatActivity
 import com.example.google_page.R
 import com.example.google_page.databinding.ActivityMainBinding
-import kotlinx.android.synthetic.main.activity_main.*
 
 lateinit var binding: ActivityMainBinding
 
@@ -32,10 +32,11 @@ class MainActivity : AppCompatActivity() {
 
         val first = binding.firstnameEdit.text.toString()
         val last = binding.lastnameEdit.text.toString()
-        val email = binding.emailEdit.text.toString()
+        val email = binding.emailEdit.text.toString() +("@gmail.com")
         val pass = binding.pass1Edit.text.toString()
         val pass2 = binding.pass2Edit.text.toString()
         val password = pass == pass2
+
 
         val check = !(email.contains("!") &&  email.contains("#") && email.contains("-")
                 && email.contains("(") && email.contains(")")&& email.contains("="))
